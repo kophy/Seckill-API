@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--configure global attributes -->
+    <settings>
+        <!-- use primary key autoincrement -->
+        <setting name="useGeneratedKeys" value="true"/>
+
+        <!-- use column alias -->
+        <setting name="useColumnLabel" value="true"/>
+
+        <!-- map under score variable name to camel case -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+
+    </settings>
+</configuration>
